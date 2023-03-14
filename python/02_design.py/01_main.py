@@ -7,3 +7,4 @@ squary.pencolor("red")
 for i in range (800):
     squary.forward(i)
     squary.left(91)
+    # jgfvudgksydouv

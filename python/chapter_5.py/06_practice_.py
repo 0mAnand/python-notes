@@ -1,10 +1,10 @@
-# # 05_practice_01
+# 
 # mydict = {
 #     "pankha": "fan",
 #     "dabba": "box",
 #     "vastu": "items"
 # }
-# print("optins are",mydict.keys())
+# 05_practice_01# print("optins are",mydict.keys())
 # a = input("enter the hindi words\n")
 # print("the meaning of our world is ",mydict[a])
 

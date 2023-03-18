@@ -20,8 +20,32 @@
 # else:
 #     print(str(f2) + "  is greatest")
 
-# 06_practice_02
+# # 06_practice_02
+# sub1 = int(input("Enter first subject marks\n"))
+# sub2 = int(input("Enter first subject marks\n"))
+# sub3 = int(input("Enter first subject marks\n"))
 
- 
+# if(sub1<33 or sub2<33 or sub3<33):
+#     print("you are fail because you have less than 33 in one of the subjects")
+
+# elif(sub1+sub2+sub3)/3 < 40:
+#     print("you are fail due to tatal percentace less than 40")
+# else:
+#     print("you are pass")
+
+# 06_practice_03
+text = input("Enter the text")
+spam = False
+
+if("make a lot of money" in text):
+    spam = True
+elif("buy now" in text):
+    spam =True
+elif("click this" in text):
+    spam = True
+elif("subscribe this" in text):
+    spam = True
+else:
+    spam = False
 
 

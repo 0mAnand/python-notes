@@ -1,11 +1,11 @@
-# Text Type     :   str
-# Numeric Types :	int, float, complex
-# Sequence Types:	list, tuple, range
-# Mapping Type  :	dict
-# Set Types     :	set, frozenset
-# Boolean Type  :   bool
-# Binary Types  :	bytes, bytear ray, memoryview
-# None Type     :   NoneType
+# # Text Type     :   str
+# # Numeric Types :	int, float, complex
+# # Sequence Types:	list, tuple, range
+# # Mapping Type  :	dict
+# # Set Types     :	set, frozenset
+# # Boolean Type  :   bool
+# # Binary Types  :	bytes, bytear ray, memoryview
+# # None Type     :   NoneType
 
 # a = "harry"  #String                                      
 # b = 45       #integer
@@ -47,6 +47,16 @@
 
 # #display the data type of x:
 # print(type(x))
+
+
+# # FROZENSET
+# x = frozenset({"apple", "banana", "cherry"})
+
+# #display x:
+# print(x)
+
+# #display the data type of x:
+# print(type(x)) 
 
 
 # # GLOBAL VARIABLES

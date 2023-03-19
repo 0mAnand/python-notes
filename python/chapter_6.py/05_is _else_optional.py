@@ -5,3 +5,11 @@
 #     print("no and yes")
 # else:
 #     print("I am optional")
+
+# a = "bad boy" 
+# if "bad" in a:
+#   print("yes")
+# elif "pratham" in a:
+#   print("no or yes")
+# else:
+#   print("no")

@@ -62,9 +62,9 @@ l = int(input("Enter the length of the cuboid: "))
 b = int(input("Enter the breadth of the cuboid: "))
 h = int(input("Enter the Height of the cuboid: "))
 volume = l * b * h
-print= ("length=",l)
-print= ("breadth=",b)
-print = ("height=",h)
+print("length=",l)
+print("breadth=",b)
+print("height=",h)
 print("The volume of cuboid=",volume)
     
 #Q7

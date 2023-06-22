@@ -57,14 +57,38 @@
 #     n = n-1
 # print("the factorial of", num , "is", f)
 
-#Q6
-l = int(input("Enter the length of the cuboid: "))
-b = int(input("Enter the breadth of the cuboid: "))
-h = int(input("Enter the Height of the cuboid: "))
-volume = l * b * h
-print("length=",l)
-print("breadth=",b)
-print("height=",h)
-print("The volume of cuboid=",volume)
+# #Q6
+# l = int(input("Enter the length of the cuboid: "))
+# b = int(input("Enter the breadth of the cuboid: "))
+# h = int(input("Enter the Height of the cuboid: "))
+# volume = l * b * h
+# print("length=",l)
+# print("breadth=",b)
+# print("height=",h)
+# print("The volume of cuboid=",volume)
     
 #Q7
+# Python program showing how to
+# multiple input using split
+ 
+# taking two inputs at a time
+x, y = input("Enter two values: ").split()
+print("Number of boys: ", x)
+print("Number of girls: ", y)
+ 
+# taking three inputs at a time
+x, y, z = input("Enter three values: ").split()
+print("Total number of students: ", x)
+print("Number of boys is : ", y)
+print("Number of girls is : ", z)
+ 
+# taking two inputs at a time
+a, b = input("Enter two values: ").split()
+print("First number is {} and second number is {}".format(a, b))
+ 
+# taking multiple inputs at a time
+# and type casting using list() function
+x = list(map(int, input("Enter multiple values: ").split()))
+print("List of students: ", x)
+
+# Q8
